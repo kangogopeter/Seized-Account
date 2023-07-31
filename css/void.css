@@ -1,0 +1,35 @@
+.container{
+  background-image: url('images\abstract-g8b9478dff_1920.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-size: larger;
+}
+
+#user{
+  color: white;
+  text-align: center;
+  background-color: red;
+  border-radius: 13px;
+  font-size: 350%;
+}
+#petImg{
+  border-radius: 45px;
+  height: 15%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  height: 50%;
+  width: 50%;
+}
+
+.purpose{
+  font-size: 35px;
+}
+
+.reason{
+  font-size: 30px;
+}
